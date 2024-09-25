@@ -1,0 +1,74 @@
+.q--formLogin a {
+    font-size: 13px;
+}
+
+.q--formLogin input::placeholder {
+    font-size: 13px;
+}
+
+.q--forgotPassword {
+    display: flex;
+    justify-content: right;
+}
+
+.q--btn button {
+    text-transform: uppercase;
+    background-color: #da6717;
+    display: inline-block;
+    padding: 6px 35px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+
+.q--btn button:hover {
+    background: #eec237;
+}
+
+.q--center {
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    animation: fade-in-out 1s ease-in-out forwards;
+    opacity: 0;
+    max-width: 400px;
+    position: fixed;
+    right: 0;
+    border: unset;
+    border-radius: 0;
+}
+.alert__out{
+    animation-name: fade-out-in;
+}
+
+@keyframes fade-in-out {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out-in {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

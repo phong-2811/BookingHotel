@@ -1,0 +1,44 @@
+@import url(../fontawesome-pro-6.1.1-web/css/all.css);
+.q--header{
+    background-color: #da6717;
+    position: relative;
+    top: 0;
+}
+.q--titlepage h2 {
+    font-size: 32px;
+    text-align: center;
+}
+.q--titlepage h3 {
+    font-size: 26px;
+    text-align: center;
+}
+.q--footer--icons{
+    display: flex;
+    gap: 24px;
+    justify-content: right;
+}
+.q--footer--icon{
+    color: #da6717;
+    font-size: 36px;
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.q--footer--icon:hover{
+    background-color: #9E9E9E;
+}
+.q--footer--icon:active{
+    background-color: #000;
+}
+.footer{
+    margin-top: 24px;
+}
+.main--footer .container p{
+    padding-bottom: 12px;
+}
